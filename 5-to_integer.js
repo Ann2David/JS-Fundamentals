@@ -1,5 +1,5 @@
 const arg = process.argv[2];
-const number = number (arg);
+const number = Number(arg);
 
 if (!isNaN(number)) {
     console.log(`My number: ${number}`);
